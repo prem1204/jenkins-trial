@@ -3,9 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps{
-                step("1"){
-                    sh build-terraform.sh               
-                }                
+               echo 'hello-world'              
             }
         }
     }
