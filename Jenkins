@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps{
-                step{
+                step("1"){
                     build-terraform.sh               
                 }                
             }
