@@ -8,10 +8,10 @@ pipeline {
                 }
             }
             steps {                
-                step{
+                {
                     echo 'Step 2'
                 }
-                step{
+                {
                     echo 'Step 2'
                 }
             }
