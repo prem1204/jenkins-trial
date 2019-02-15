@@ -3,12 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             agent {
-                docker {
-                    image 'hello-world' 
-                }
-            }
-            steps {
-                    echo 'Step 2'
+                build build-terraform.sh   
             }
         }
     }
